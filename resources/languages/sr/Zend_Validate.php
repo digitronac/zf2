@@ -3,13 +3,10 @@
  * Zend Framework (http://framework.zend.com/)
  *
  * @link      http://github.com/zendframework/zf2 for the canonical source repository
- * @copyright  Copyright (c) 2005-2014 Zend Technologies USA Inc. (http://www.zend.com)
+ * @copyright  Copyright (c) 2005-2013 Zend Technologies USA Inc. (http://www.zend.com)
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
  */
 
-/**
- * EN-Revision: 21135
- */
 return array(
     // Zend_Validate_Alnum
     "Invalid type given, value should be float, string, or integer" => "Nevalidan tip, vrednost treba da bude tekst ili broj",
@@ -63,9 +60,9 @@ return array(
     "'%value%' contains not only digit characters" => "'%value%' ne sadrži samo cifre",
     "'%value%' is an empty string" => "'%value%' je prazan tekst",
 
-    // Zend_Validate_EmailAddress
+    // Zend\Validate\EmailAddress
     "Invalid type given, value should be a string" => "Nevalidan tip, vrednost treba da bude tekst",
-    "'%value%' is not a valid email address in the basic format local-part@hostname" => "'%value%' nije validna adresa elektronske pošte u formatu adresa@imehosta",
+    "The input is not a valid email address. Use the basic format local-part@hostname" => "Uneta vrednost nije validna adresa elektronske pošte u formatu adresa@imehosta",
     "'%hostname%' is not a valid hostname for email address '%value%'" => "'%hostname%' nije validno ime hosta za adresu elektronske pošte '%value%'",
     "'%hostname%' does not appear to have a valid MX record for the email address '%value%'" => "'%hostname%' nema validan MX zapis za adresu elektronske pošte '%value%'",
     "'%hostname%' is not in a routable network segment. The email address '%value%' should not be resolved from public network." => "'%hostname%' nije rutabilan mrežni segment. Adresa elektronske pošte '%value%' ne treba da bude razrešena sa javne mreže",
@@ -246,8 +243,8 @@ return array(
     "'%value%' is not a valid sitemap priority" => "'%value%' nije validan prioritet mape sajta",
     "Invalid type given, the value should be a integer, a float or a numeric string" => "Nevalidan tip, vrednost treba da bude broj ili numerički niz",
 
-    // Zend_Validate_StringLength
+    // Zend\Validate\StringLength
     "Invalid type given, value should be a string" => "Nevalidan tip, vrednost treba da bude tekst",
-    "'%value%' is less than %min% characters long" => "'%value%' ima manje od %min% karaktera",
+    "The input is less than %min% characters long" => "Uneta vrednost ima manje od %min% karaktera",
     "'%value%' is more than %max% characters long" => "'%value%' ima više od %max% karaktera",
 );
